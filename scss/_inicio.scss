@@ -1,0 +1,33 @@
+@import "variables";
+.footer{
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: $margen-secciones;
+    margin-bottom: $margen-secciones;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        li{
+            list-style: none;
+            margin-right: 10px;
+           a{
+            text-decoration: none;
+            color: $color-fuente;
+            font-size: 25px;
+
+            &:hover{
+                color: whitesmoke;
+            }
+           }
+        }
+    }
+}   
+
+header{
+    margin-top: $margen-secciones;
+    margin-bottom: $margen-secciones;
+}

@@ -1,0 +1,34 @@
+@import "variables";
+
+.form-1{
+    legend{
+        color: $color-fuente;
+    }
+    div{
+        input{
+            gap: 1rem;
+        }
+        label{
+            color: $color-fuente;
+        }
+        p{
+            color: $color-fuente;
+        }
+    }
+    
+ }
+
+ .contacto2{
+    border: solid;
+    color: black;
+    background-color: whitesmoke;
+    p{
+     color: $color-fuente;
+    }
+ }
+
+ @media screen and (max-width: 480px){
+    .contacto2{
+        margin-top: 3rem;
+    }
+ }
